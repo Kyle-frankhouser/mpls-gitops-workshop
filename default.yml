@@ -12,6 +12,11 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: "https://webhook.site/46b9a0ec-d20d-448d-94be-ab9e13fa36ad"
+      
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
@@ -143,8 +148,3 @@ controls:
 ###########################################################
 labels:
   - paths: ./labels/*.yml
-
-webhook_settings:
-  activities_webhook:
-    enable_activities_webhook: true
-    destination_url: "https://webhook.site/46b9a0ec-d20d-448d-94be-ab9e13fa36ad"
