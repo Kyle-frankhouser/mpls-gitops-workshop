@@ -132,6 +132,7 @@ controls:
     - paths: ../platforms/macos/scripts/*.sh
     - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/linux/scripts/*.sh
+    - path: ../platforms/macos/scripts/set-dns-cloudflare.sh
   
   macos_updates:
     deadline: "2026-07-30"
@@ -170,6 +171,7 @@ policies:
   - paths: ../platforms/macos/policies/*.yml
   - paths: ../platforms/windows/policies/*.yml
   - paths: ../platforms/linux/policies/*.yml
+  - path: ../platforms/macos/policies/dns-resolvers.policies.yml
 
 ###########################################################
 # Software available for install
